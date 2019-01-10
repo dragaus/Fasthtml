@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Paises Preguntas</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+
+<body>
+  <header>
+<h1> Paises </h1>
+  </header>
+  <br>
+  <br>
+  <br>
+  <h2> A que país corresponde cada saludo </h2>
+  <div class="vista vista-4">
+        <!--<form name="quiz">-->
+            <div class="pregunta" name="question">
+              <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/153/waving-hand-sign_1f44b.png" class="emoji" alt="Trash image">
+              <p class= "saludo"> Hallo </p>
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio" name="answer0" id="pais-1" value="correct" >
+                            <label for="pais-1">Alemania</label>
+
+                            <input type="radio" name="answer0" id="pais-2" value="wrong" >
+                            <label for="pais-2">Colombia</label>
+
+                            <input type="radio" name="answer0" id="pais-3" value="wrong" >
+                            <label for="pais-3">Peru</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pregunta" name="question">
+              <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/twitter/53/waving-hand-sign_1f44b.png" class="emoji" alt="Trash image">
+                <p class= "saludo"> Bonjour <p/>
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio" name="answer1" id="pais1-1" value="correct" >
+                            <label for="pais1-1">Francia</label>
+                            <input type="radio" name="answer1" id="pais1-2" value="wrong" >
+                            <label for="pais1-2">Venezuela</label>
+                            <input type="radio" name="answer1" id="pais1-3" value="wrong" >
+                            <label for="pais1-3">Colombia</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pregunta" name="question">
+              <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/emoji-one/104/waving-hand-sign_1f44b.png" class="emoji" alt="Trash image">
+                <p class="saludo"> Hej <p/>
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio"  name="answer2" id="pais2-1"value="wrong" >
+                            <label for="pais2-1">España</label>
+
+                            <input type="radio" name="answer2" id="pais2-2"value="correct" >
+                            <label for="pais2-2">Dinamarca</label>
+
+                            <input type="radio" name="answer2" id="pais2-3"value="wrong" >
+                            <label for="pais2-3">Colombia</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="submit" onclick="getResults();">Enviar</button>
+        <!-- </form> -->
+        <div id="results"></div>
+
+
+
+    </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

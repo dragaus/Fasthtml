@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Películas Preguntas</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+<h1> Películas </h1>
+  </header>
+  <br>
+  <br>
+
+    <div class="vista vista-4">
+    <div class="pregunta" name="question">
+            <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/65/flag-for-mexico_1f1f2-1f1fd.png" class="emoji" alt="Trash image">
+            <h2> ¿Qué actriz mexicana ganó en 2018 el Hollywood Film Award como Nueva Actriz? <h2/>
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer0" id="film-1" value="wrong">
+                            <label for="film-1">Salma Hayek</label>
+                            <input type="radio" name="answer0" id="film-2" value="wrong">
+                            <label for="film-2">Dolores del Río</label>
+
+                            <input type="radio" name="answer0" id="film-3" value="correct">
+                            <label for="film-3">Yalitza Aparicio</label>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta" name="question">
+            <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/65/flag-for-russia_1f1f7-1f1fa.png" class="emoji" alt="Trash image">
+            <h2> ¿Qué director Ruso filmó la pelicula 'Qué viva México'en 1932? <h2/>
+
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer1" id="film1-1" value="wrong">
+                            <label for="film1-1">Andrèi Tarkovsk</label>
+
+                            <input type="radio" name="answer1" id="film1-2" value="correct">
+                            <label for="film1-2">Sergéi Eisenstein</label>
+
+                            <input type="radio" name="answer1" id="film1-3" value="wrong">
+                            <label for="film1-3">Sergéi Bondarchuck</label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta" name="question">
+                <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/htc/37/trophy_1f3c6.png" class="emoji" alt="Trash image">
+                <h2> ¿Quién ha sido la actriz más nominada al oscar?  <h2/>
+
+                <div class="escogerOpciones">
+                    <form class="form-group">
+                       <div class="radio-toolbar">
+                            <input type="radio" name="answer2" id="film2-1" value="wrong">
+                        <label for="film2-1">Katharine Hepburn</label>
+
+                        <input type="radio" name="answer2" id="film2-2" value="correct">
+                        <label for="film2-2">Meryl Streep</label>
+
+                        <input type="radio" name="answer2" id="film2-3"value="wrong">
+                        <label for="film2-3">Bette Davis</label>
+                       </div>
+
+
+                    </form>
+                </div>
+        </div>
+        <div id="results"></div>
+        <button class="submit" onclick="getResults();" type="submit">Enviar</button>
+
+    </div>
+
+
+</body>
+
+</html>
